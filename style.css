@@ -1,0 +1,60 @@
+.li-users {
+    display: flex;
+    flex-direction: column;
+}
+#user-list {
+    display: flex;
+}
+.image-class {
+    height: 100px;
+    object-fit: contain;
+}
+
+/* posts */
+.posts {
+    background-color: cyan;
+    padding:30px;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* overlay styles */
+.overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 70%;
+    display: none;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.title{
+    display: inline-block;
+}
+
+.hh11{
+    display: inline-block;
+}
+
+.content{
+    color:white;
+    text-align: center;
+    padding: 50px;
+}
